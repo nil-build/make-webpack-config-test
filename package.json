@@ -1,0 +1,92 @@
+{
+    "name": "make-webpack-config-test",
+    "sideEffects": true,
+    "version": "1.2.0",
+    "description": "",
+    "keywords": [
+        "react",
+        "webpack",
+        "create-app",
+        "build",
+        "nil-build"
+    ],
+    "main": "index.js",
+    "bin": {},
+    "homepage": "https://github.com/bplok20010/make-webpack-config",
+    "author": {
+        "name": "nobo.zhou@foxmail.com"
+    },
+    "bugs": {
+        "url": "https://github.com/bplok20010/make-webpack-config/issues"
+    },
+    "repository": "https://github.com/bplok20010/make-webpack-config.git",
+    "license": "MIT",
+    "scripts": {
+        "start": "node build/start"
+    },
+    "files": [
+        "*.md",
+        "lib",
+        "scripts",
+        "*.js"
+    ],
+    "devDependencies": {
+        "@babel/core": "^7.0.0",
+        "@babel/plugin-proposal-async-generator-functions": "^7.0.0",
+        "@babel/plugin-proposal-class-properties": "^7.0.0",
+        "@babel/plugin-proposal-decorators": "^7.0.0",
+        "@babel/plugin-proposal-do-expressions": "^7.0.0",
+        "@babel/plugin-proposal-export-default-from": "^7.0.0",
+        "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+        "@babel/plugin-proposal-function-bind": "^7.0.0",
+        "@babel/plugin-proposal-function-sent": "^7.0.0",
+        "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+        "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+        "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+        "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+        "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+        "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+        "@babel/plugin-transform-flow-strip-types": "^7.0.0",
+        "@babel/plugin-transform-proto-to-assign": "^7.0.0",
+        "@babel/plugin-transform-react-jsx": "^7.0.0",
+        "@babel/plugin-transform-runtime": "^7.0.0",
+        "@babel/preset-env": "^7.0.0",
+        "@babel/preset-flow": "^7.0.0",
+        "@babel/preset-react": "^7.0.0",
+        "@babel/runtime-corejs2": "^7.0.0",
+        "autoprefixer": "^9.1.3",
+        "babel-loader": "^8.0.1",
+        "css-loader": "^1.0.0",
+        "json5-loader": "^1.0.1",
+        "less": "^3.8.1",
+        "less-loader": "^4.1.0",
+        "mini-css-extract-plugin": "^0.4.2",
+        "node-sass": "^4.9.3",
+        "postcss-flexbugs-fixes": "^4.1.0",
+        "postcss-loader": "^3.0.0",
+        "precss": "^3.1.2",
+        "sass-loader": "^7.1.0",
+        "vue-loader": "^15.4.1",
+        "vue-template-compiler": "^2.5.17"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.0.0",
+        "chalk": "^2.4.1",
+        "clean-webpack-plugin": "^0.1.19",
+        "extract-loader": "^2.0.1",
+        "file-loader": "^1.1.11",
+        "fs-extra": "^7.0.0",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "object.omit": "^3.0.0",
+        "opn": "^5.3.0",
+        "raw-loader": "^0.5.1",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "url-loader": "^1.0.1",
+        "webpack": "^4.16.3",
+        "webpack-dev-server": "^3.1.5",
+        "webpack-manifest-plugin": "^2.0.3",
+        "webpack-merge": "^4.1.4"
+    }
+}
